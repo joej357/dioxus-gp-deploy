@@ -36,7 +36,6 @@ fn Blog(id: i32) -> Element {
 fn Home() -> Element {
     let mut count = use_signal(|| 0);
     let time = chrono::Utc::now();
-    let refresh = use_signal(|| true);
 
     rsx! {
         Link {
