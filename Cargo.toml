@@ -1,0 +1,15 @@
+[package]
+name = "dioxus-gp-deploy"
+version = "0.1.0"
+authors = ["jjohn <joej@modularityspace.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+dioxus = { version = "0.5", features = ["web", "router"] }
+chrono = "0.4.38"
+
+# Debug
+dioxus-logger = "0.5.1"
