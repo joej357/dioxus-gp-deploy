@@ -50,7 +50,7 @@ fn Home() -> Element {
             button { onclick: move |_| count -= 1, "Down low!" }
         }
         div{
-            h3 { "Current Time is {time}" }
+            h3 { "Current time is {time}" }
         }
     }
 }
