@@ -1,5 +1,8 @@
 name: github pages
 
+permissions:
+  contents: write
+  
 on:
   push:
     branches:
@@ -10,4 +13,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Dioxus Deploy"
-        uses: joej357/dioxus-deploy-action
+        uses: joej357/dioxus-deploy-action@0.1.0
